@@ -228,6 +228,12 @@ footer .row {
 }
 
 /* ------------------------------ Card Design 23 ----------------------------- */
+.cd-23 .card-img {
+  transition: all 0.3s;
+}
+.cd-23:hover .card-img {
+  transform: scale(1.2);
+}
 .cd-23 a.btn {
   font-size: 13px;
   text-transform: capitalize;
